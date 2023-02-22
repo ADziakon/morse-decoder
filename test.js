@@ -63,7 +63,6 @@ describe("Easy", function() {
     });
     
 });
-
 describe("Medium", function() {
     it("Medium line length test 1", function() {
         const expr = "00000000100000111010101010111100111011100000001011111110101011111010101010101010";
@@ -307,3 +306,4 @@ describe("Hard (what's going on)", function() {
         expect(decode(expr)).to.equal(result);
     });
 })
+
